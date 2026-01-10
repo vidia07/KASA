@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home | KASA')
+@section('title', 'KASA')
 
 @section('content')
 <section class="container mx-auto px-6 py-24 bg-gradient-to-b from-blue-800/40 to-black">
@@ -152,6 +152,51 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-black py-32 overflow-hidden">
+    <div class="container mx-auto px-6">
+
+        <div class="max-w-3xl mx-auto text-center mb-20">
+            <p class="text-red-500 text-lg font-medium mb-3">
+                Find your K-Drama
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                Discover Korean dramas
+            </h2>
+
+            <p class="text-gray-400 text-lg">
+                Explore detailed drama information, trending titles, and curated recommendations anytime, anywhere — all on KASA.
+            </p>
+        </div>
+
+        <div class="space-y-10">
+
+            <div class="overflow-hidden">
+                <ul class="flex gap-6 w-max animate-marquee-left">
+                    @for ($i = 0; $i < 2; $i++)
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251126/1122/P001776433.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251021/1250/P001776344.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251114/0230/P001779124.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251016/0740/P001777791.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20241211/0803/P001765388.jpg" class="poster" /></li>
+                    @endfor
+                </ul>
+            </div>
+
+            <div class="overflow-hidden">
+                <ul class="flex gap-6 w-max animate-marquee-right">
+                    @for ($i = 0; $i < 2; $i++)
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251202/0740/P001779875.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251126/0005/P001779606.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251217/0220/P001750989.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251124/0611/P001779293.jpg" class="poster" /></li>
+                        <li><img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20251211/0550/P001780197.jpg" class="poster" /></li>
+                    @endfor
+                </ul>
             </div>
         </div>
     </div>
