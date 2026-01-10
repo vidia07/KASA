@@ -27,7 +27,7 @@
             <div class="bg-gray-900 rounded-2xl p-8 text-center hover:bg-gray-800 transition">
                 <img src="https://images.justwatch.com/poster/335002706/s166/twinkling-watermelon.avif" alt="All in One" class="mx-auto mb-6 h-40">
 
-                <p class="text-sm uppercase tracking-wide text-red-500 mb-2">
+                <p class="text-sm uppercase tracking-wide text-[#A10B0B] mb-2">
                     All in one place
                 </p>
 
@@ -44,7 +44,7 @@
             <div class="bg-gray-900 rounded-2xl p-8 text-center hover:bg-gray-800 transition">
                 <img src="https://images.justwatch.com/poster/320028557/s166/home-school.avif" alt="Search Drama" class="mx-auto mb-6 h-40">
 
-                <p class="text-sm uppercase tracking-wide text-red-500 mb-2">
+                <p class="text-sm uppercase tracking-wide text-[#A10B0B] mb-2">
                     One search
                 </p>
 
@@ -61,7 +61,7 @@
             <div class="bg-gray-900 rounded-2xl p-8 text-center hover:bg-gray-800 transition">
                 <img src="https://images.justwatch.com/poster/321667436/s166/family-by-choice.avif" alt="Drama Recommendations" class="mx-auto mb-6 h-40">
 
-                <p class="text-sm uppercase tracking-wide text-red-500 mb-2">
+                <p class="text-sm uppercase tracking-widetext-[#A10B0B] mb-2">
                     Curated picks
                 </p>
 
@@ -102,7 +102,7 @@
                         The most popular Korean dramas right now
                     </p>
                 </div>
-                 <a href="#" class="hidden md:inline text-sm text-red-500 hover:underline">
+                 <a href="#" class="hidden md:inline text-sm text-[#A10B0B] hover:underline">
                     See more
                 </a>
             </div>
@@ -160,7 +160,7 @@
     <div class="container mx-auto px-6">
 
         <div class="max-w-3xl mx-auto text-center mb-20">
-            <p class="text-red-500 text-lg font-medium mb-3">
+            <p class="text-[#A10B0B] text-lg font-medium mb-3">
                 Find your K-Drama
             </p>
 
@@ -198,6 +198,22 @@
                     @endfor
                 </ul>
             </div>
+        </div>
+    </div>
+</section>
+<section class="bg-black py-24">
+    <div class="container mx-auto px-6 text-center">
+        <div class="mx-auto mb-6 w-24 h-24 rounded-lg overflow-hidden">
+            <img src="/img/kasa.png" alt="KASA Logo" class="w-full h-full object-cover">
+        </div>
+        <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6">
+            Find the best Korean dramas on KASA
+        </h2>
+        <div class="flex justify-center">
+            <a href="#" 
+                class="bg-[#A10B0B] hover:bg-[#8B0909] text-white font-semibold px-8 py-3 rounded-lg transition inline-block">
+                    Discover K-Drama Now
+            </a>
         </div>
     </div>
 </section>
