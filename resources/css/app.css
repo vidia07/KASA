@@ -28,6 +28,11 @@
     animation: marquee-right 45s linear infinite;
 }
 
+.rotate-180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
 @media (max-width: 768px) {
     .poster {
         width: 14rem;   /* lebih kecil di HP */
