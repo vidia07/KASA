@@ -3,7 +3,7 @@
         <h1 class="text-4xl font-bold text-white">KASA</h1>
     </div>
     <div class="flex items-center pr-8 md:pr-12 lg:pr-16">
-        <a href="#explore"
+        <a href="/dramas"
             class="bg-[#A10B0B] hover:bg-[#8B0909] text-white font-semibold px-6 py-2 rounded-lg transition">
             Explore Now
         </a>
