@@ -3,14 +3,13 @@
 @section('title', 'KASA')
 
 @section('content')
-    <section class="container mx-auto px-6 py-24 bg-gradient-to-b from-blue-800/40 to-black">
-        <div class="text-center mt-16">
-            <h1
-                class="mb-6 text-4xl font-bold tracking-tight leading-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                Welcome to KASA
-            </h1>
+    <section class="w-full bg-gradient-to-b from-blue-800/40 to-black">
+            <div class="container mx-auto px-6 py-24 text-center">
+                <h1 class="mb-6 text-4xl font-bold tracking-tight leading-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    Welcome to KASA
+                </h1>
 
-            <p class="mb-6 max-w-3xl mx-auto text-lg text-gray-400">
+                <p class="mb-6 max-w-3xl mx-auto text-lg text-gray-400">
                 KASA is a Korean drama streaming platform where you can watch curated series with seamless access and an
                 enjoyable viewing experience.
             </p>
